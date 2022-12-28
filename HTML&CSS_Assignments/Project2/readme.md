@@ -1,5 +1,5 @@
 
 
-# Project 2
+# PROJECT 2
 
-## Code Files and Assets related to Project1
+## Code Files and Assets related to Project2
