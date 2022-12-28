@@ -73,8 +73,6 @@ body{
 
 .button-small{
 	background: #ba0cc5;
-	width: 149px;
-	height: 39px;
 	border: 0;
 	color: #fff;
 	border-radius: 5px;
@@ -82,4 +80,61 @@ body{
 	font-weight: 500;
 	font-size: 16px;
 	margin: 0 0 0 247px;
+	cursor: pointer;
+	padding: 7.2px 28.5px;
 }
+
+.button-small:hover,.button-small:focus{
+	background: #fff;
+	color: #ba0cc5;
+}
+
+[aria-label="hero"]{
+	background: url('assets/bg.png') no-repeat center top;
+	background-size: cover;
+}
+
+.hero{
+	max-width: 880px;
+	margin: 0 auto;
+	padding: 173px 0 638px;
+	left: 16px;
+	position: relative;
+}
+
+.hero h1{
+	color: #fff;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 80px;
+}
+
+.hero p{
+	color: #fff;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	letter-spacing: 0.2px;
+}
+
+.button-large{
+	background: #ba0cc5;
+	border: 0;
+	color: #fff;
+	border-radius: 10px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 29px;
+	margin: 52px 0 0 258px;
+	cursor: pointer;
+	letter-spacing: 0.6px;
+	padding: 14px 24px;
+}
+
+.button-large:hover,.button-large:focus{
+	background: #fff;
+	color: #ba0cc5;
+}
+
