@@ -6,4 +6,4 @@ LINKS OF ARTICLES
 
 [HTML5 Semantics](https://mansa303.hashnode.dev/html5-semantics)
 
-[Embedding iFrame inside Table](https://mansa303.hashnode.dev/embedding-iframe-inside-table)
+[CSS Selectors](https://mansa303.hashnode.dev/what-is-css)
