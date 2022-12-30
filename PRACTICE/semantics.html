@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Semantics</title>
+</head>
+<body>
+	<h2> About Semantics</h2>
+	<h3>There are 100 semantic elements</h3>
+
+	<article>
+		<h4>About Article Semantic</h4>
+		<pre>self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.</pre>
+		<pre>A given document can have multiple articles in it; for example, on a blog that shows the text of each article one after another as the reader scrolls, each post would be contained in an article tag element, possibly with one or more section tags within.</pre>
+	</article>
+
+	<aside>
+		<h4>About Aside Semantic</h4>
+		<pre>The aside tag HTML element represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.</pre>
+	</aside>
+
+	<details>
+		<h4>About details Semantic</h4>
+		<pre>The details tag HTML element creates a disclosure widget in which information is visible only when the widget is toggled into an "open" state. A summary or label must be provided using the summary tag element.</summary>
+			When the user clicks on the widget or focuses it then presses the space bar, it "twists" open, revealing its contents. The common use of a triangle which rotates or twists around to represent opening or closing the widget is why these are sometimes called "twisty".
+
+You can use CSS to style the disclosure widget, and you can programmatically open and close the widget by setting/removing its open attribute. Unfortunately, at this time there's no built-in way to animate the transition between open and closed.
+
+By default when closed, the widget is only tall enough to display the disclosure triangle and summary. When open, it expands to display the details contained within.
+
+open
+
+    This Boolean attribute indicates whether the details — that is, the contents of the <details> element — are currently visible. The details are shown when this attribute exists, or hidden when this attribute is absent. By default this attribute is absent which means the details are not visible.
+	</details>
+
+	<nav>
+		The <nav> HTML element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.
+	</nav>
+
+	<header>The header HTML element represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.
+	The <header> element can define a global site header, described as a banner in the accessibility tree. It usually includes a logo, company name, search feature, and possibly the global navigation or a slogan. It is generally located at the top of the page.
+	</header>
+
+	<section>
+		The <section> HTML element represents a generic standalone section of a document, which doesn't have a more specific semantic element to represent it. Sections should always have a heading, with very few exceptions.
+	</section>
+
+	<summary>
+		The <summary> HTML element specifies a summary, caption, or legend for a <details> element's disclosure box. Clicking the <summary> element toggles the state of the parent <details> element open and closed.
+	</summary>
+
+	<time>The <time> HTML element represents a specific period in time. It may include the datetime attribute to translate dates into machine-readable format, allowing for better search engine results or custom features such as reminders.
+
+It may represent one of the following:
+
+    A time on a 24-hour clock.
+    A precise date in the Gregorian calendar (with optional time and timezone information).
+    A valid time duration.
+</time>
+
+	<mark>
+		The <mark> HTML element represents text which is marked or highlighted for reference or notation purposes due to the marked passage's relevance in the enclosing context.
+	</mark>
+
+	<main>
+		The main HTML element represents the dominant content of the body of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.
+		A document must not have more than one main element that doesn't have the hidden attribute specified.
+	</main>
+
+	<footer>
+		The footer HTML element represents a footer for its nearest ancestor sectioning content or sectioning root element. A footer typically contains information about the author of the section, copyright data or links to related documents.
+	</footer>
+
+	<figure>
+		The <figure> HTML element represents self-contained content, potentially with an optional caption, which is specified using the <figcaption> element. The figure, its caption, and its contents are referenced as a single unit.
+	</figure>
+
+	<figcaption>The figcaption HTML element represents a caption or legend describing the rest of the contents of its parent figure element.
+	Ex:<figure>
+    <img src="/media/cc0-images/elephant-660-480.jpg"
+         alt="Elephant at sunset">
+    <figcaption>An elephant at sunset</figcaption>
+</figure>
+</figcaption>
+
+</body>
+</html>
