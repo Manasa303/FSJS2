@@ -1,0 +1,1 @@
+## To check if particular word is present in the sentence using includes() method. Return "true" if it finds a word Script.

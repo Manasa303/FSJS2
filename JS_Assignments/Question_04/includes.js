@@ -1,5 +1,5 @@
 // Assigning String to a variable
-let text = "Java Script";
+let text = "Hi, Welcome to JavaScript Bootcamp";
 
 // Checking whether word "Script" 
 let check = text.includes("Script");

@@ -1,0 +1,1 @@
+## To convert string in lowercase/capitalized to uppercase using .toUppercase() method.
