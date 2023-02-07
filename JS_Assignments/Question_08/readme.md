@@ -1,0 +1,1 @@
+## Using trim method() to eliminate whitespaces and return new string without modification
