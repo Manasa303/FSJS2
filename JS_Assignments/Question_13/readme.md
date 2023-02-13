@@ -1,0 +1,1 @@
+## Using prompt() method and getting user input to do necessary actions.

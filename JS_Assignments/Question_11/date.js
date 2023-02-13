@@ -12,4 +12,4 @@ console.log(year.getMinutes()); // To get current time mins
 let prevTime = new Date(1970,1,1,0,0);  // Jan 1, 1970
 let thisTime = new Date();              // now
 let diff = thisTime.getTime() - prevTime.getTime();   // now - Jan 1
-console.log("Number of seconds elapsed is",(diff / (1000*60*60*24)));     // positive number of days
+console.log("Number of seconds elapsed is",(diff / (1000*60*60*24)));  
