@@ -1,0 +1,1 @@
+## To check the given number is prime or not. Prime numbers are numbers which is divisible by one and the number itself as the factors. 
