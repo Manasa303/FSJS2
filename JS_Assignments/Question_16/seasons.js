@@ -1,7 +1,8 @@
 
 
 //Enter month name
-let month = "February";
+const prompt = require("prompt-sync")({sigint:true});
+const month = prompt('Enter month:');
 
 //check which season, the month falls in.
 if(month == "September" || month == "October" || month == "November" ) {

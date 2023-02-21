@@ -1,6 +1,7 @@
 
 // Enter marks obtained
-const marks = 52;
+const prompt = require("prompt-sync")({sigint:true});
+const marks = prompt('Enter your marks:');
 
 if(marks >=80 && marks <=100){
     console.log("You have received Grade A"); // Marks between 80 to 100 are graded with A

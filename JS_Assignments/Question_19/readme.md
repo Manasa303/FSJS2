@@ -1,0 +1,1 @@
+## Adding two JS files and accessing it in the other JS file using import and export.

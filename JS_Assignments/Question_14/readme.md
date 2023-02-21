@@ -1,0 +1,1 @@
+## Using Prompt and chec if the given number is odd or even.

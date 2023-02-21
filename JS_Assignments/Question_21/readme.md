@@ -1,0 +1,1 @@
+## Using ToUppercase() method to convert the string to uppercase if present in the Array(suing includes method). If not present in the array add the new item to the Array at the last(using push method). If you want to push to the first item in an array use unshift() method.

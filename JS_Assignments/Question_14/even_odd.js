@@ -1,6 +1,7 @@
 
 //Enter number
-const number = 29;
+const prompt = require("prompt-sync")({sigint:true});
+const number = prompt('Enter a number:');
 
 //check if the number is even
 if(number % 2 == 0) {

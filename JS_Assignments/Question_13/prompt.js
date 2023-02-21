@@ -1,4 +1,5 @@
-const age = 14;
+const prompt = require("prompt-sync")({sigint:true});
+const age = prompt('Enter your age:');
 
 if (age != null && age >= 18) {
     console.log("You are old enough to drive");
