@@ -1,0 +1,1 @@
+## A simple Calculatir function to execute operations based on user input values

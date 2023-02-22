@@ -1,0 +1,1 @@
+## Creating two arrays even and odd , using array push method() numbers odd and even added to arrays accordingly.

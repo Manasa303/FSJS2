@@ -1,0 +1,1 @@
+## To rectify the fiulename extension using the split and pop methods(). Filename is split into individual array elements using split() method. Laster the extension is returned using pop method.
