@@ -22,5 +22,11 @@ spantext[1].innerText = "an Employee"
 spantext[2].innerText = "iNeuron Intelligence Private Limited"
 ```
 
+_Task 4 Solution_
+
+```javascript
+let image = document.querySelector('.hero-right-section img') 
+image.src = './image.jpg'
+
 
 
