@@ -28,15 +28,20 @@ element.appendChild(h3)
 element.appendChild(p)
 parent.appendChild(element)
 
-accordianHeadings = Array.from(document.querySelectorAll(".accordian > h3"));
-accordianHeadings.forEach(h3 => {
-    h3.style.backgroundColor = "#dadaf8";
-    let para = h3.nextElementSibling;
-    if (["Skills"].includes(h3.innerText)) {
-        para.style.display = "block";
-    } else {
-        para.style.display = "none";
-    }
+let newList=document.querySelectorAll(".accordian h3")
+newList[newList.length-1].addEventListener("click",(event)=>{
+    let element = event.target.nextElementSibling;
+if(element.style.display === "block"){
+   element.style.display = "none"
+} else {
+   element.style.display = "block"
+}
 })
+let div = document.querySelectorAll('div') 
+let head=document.querySelectorAll('.accordian h3')
+
+let para=document.querySelectorAll('.accordian p')
+head.forEach((div) => (div.style.backgroundColor = "#dadaf8"));
+para.forEach((div) => (div.style.backgroundColor = "#edf0fd")); 
 ```
 
