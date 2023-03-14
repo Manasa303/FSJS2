@@ -7,3 +7,7 @@ LINKS OF ARTICLES
 [HTML5 Semantics](https://mansa303.hashnode.dev/html5-semantics)
 
 [CSS Selectors](https://mansa303.hashnode.dev/what-is-css)
+
+[Flex Box](https://mansa303.hashnode.dev/flex-box)
+
+[CSS Positioning](https://mansa303.hashnode.dev/css-positioning)
