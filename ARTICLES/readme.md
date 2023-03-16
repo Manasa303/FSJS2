@@ -11,3 +11,5 @@ LINKS OF ARTICLES
 [Flex Box](https://mansa303.hashnode.dev/flex-box)
 
 [CSS Positioning](https://mansa303.hashnode.dev/css-positioning)
+
+[CSS Box Model](https://mansa303.hashnode.dev/css-box-model)
