@@ -13,3 +13,7 @@ LINKS OF ARTICLES
 [CSS Positioning](https://mansa303.hashnode.dev/css-positioning)
 
 [CSS Box Model](https://mansa303.hashnode.dev/css-box-model)
+
+[Media Query](https://mansa303.hashnode.dev/media-query)
+
+[CSS Grid](https://mansa303.hashnode.dev/css-grid)
