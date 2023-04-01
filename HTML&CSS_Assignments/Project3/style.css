@@ -1,2 +1,131 @@
-/* You can not modify anything from the HTML file */
+/* You can not modify anything in the HTML */
 /* You can only modify the CSS file */
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0 auto;
+    padding: 0 0 130px;
+}
+
+/* Header */
+
+[aria-label="navbar"]{
+	background: #fff;
+	height: 66px;
+    margin-top: 72px;	
+}
+.navbar-container{
+	display: grid;
+	align-items: center;
+	max-width: 1632px;
+	margin: 0 auto;
+	height: 100%;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+
+.logo{
+	width: 93px;
+	height: 32px;
+	display: block;
+}
+
+
+.list{
+	display: flex;
+	margin: 2px 0 0;
+}
+
+
+.list-item{
+	color: #000000;
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 500;
+	list-style: none;
+	margin: 0 35px 0 35px;
+	position: relative !important;
+	font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.list-item:hover,.list-item:focus{
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.list-item:hover::after,.list-item:focus::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #000;
+    width: 59px;
+    height: 3px;
+    bottom: 0;
+  }
+
+.button-group {
+    display: flex;
+    justify-content: end;
+    align-items: center;    
+    position: relative;
+    top: 10px;
+  }
+
+  .search-icon{
+    margin: 5px 18px 0 0;
+  }
+
+  .nav-button{
+    width: 217px;
+    height: 56px;
+    background: #fff;
+    border: 4px solid #000;
+    border-radius: 21px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    letter-spacing: 0.4px;
+    color: #515151;
+  }
+  .hero-container{
+    display: grid;
+    align-items: center;
+    max-width: 1634px;
+    margin: 0 auto;
+    height: 100%;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    position: relative;
+    margin: 127px auto 0;
+  }
+
+  .square{
+    position: absolute;
+    left: 212px;
+    bottom: -71px;
+  }
+
+  .globe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .star{
+    position: absolute;
+  }
+
+  .hero-container > div{
+    position: relative;
+  }
