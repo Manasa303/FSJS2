@@ -12,7 +12,7 @@
 
 5. Medifine - (https://medfine.netlify.app/)
 
-6. Justice - (justicpriority.netlify.app)
+6. Justice - (http://justicpriority.netlify.app)
 
 7. Credit Card Landing Page - (https://creditcardlanding.netlify.app/)
 
