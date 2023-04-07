@@ -25,17 +25,19 @@
 
 ## HTML and CSS Assignments
 
-1. [SEO Master](https://641c0ad483b9960a038bc3b6--bejewelled-quokka-066e9c.netlify.app/)
+1. [SEO Master](https://competition-crush.netlify.app/)
 
-2. [Crypto Market](https://641c0b789f93cf048a690afd--cool-panda-eb3a52.netlify.app/)
+2. [Crypto Market](https://book-your-token.netlify.app/)
 
-3. [Fashion Hub](https://641c0bba25ea8107cbe85ce5--spiffy-jalebi-26b97d.netlify.app/)
+3. [Fashion Hub](https://fashion-hub-trend.netlify.app/)
 
-4. [Head phones](https://unique-melba-75673f.netlify.app/)
+4. [Head phones](https://calm-head-phone.netlify.app/)
 
-5. [Medifine](https://zesty-gaufre-e17421.netlify.app/)
+5. [Medifine](https://medfine.netlify.app/)
 
-6. [Justice] (https://scintillating-tartufo-75fbb7.netlify.app/)
+6. [Justice](justicpriority.netlify.app)
+
+7. [Credit Card Landing Page](https://creditcardlanding.netlify.app/)
 
 ## Tailwind Assignment
 
